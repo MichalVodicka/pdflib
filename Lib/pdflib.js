@@ -230,7 +230,7 @@ module.exports = {
     nextID:function(){this.lastObjectID +=1; return this.lastObjectID},
     addObject:function(objectID,objectContent){
         this.objects[objectID]=objectContent; return objectID},
-    addxRef : (position)=>{
+    addxRef : function(position){
         let positionWLZ = "000000000"+position; // add leading zeros e.g 12345 => 000000000012345, 1 => 0000000001
         positionWLZ = positionWLZ.substring(positionWLZ.length-10); // cut down to 10 digits e.g. 000000000012345 => 0000012345, 0000000001 =(will be the same)= 0000000001 
         this.xRef+="\n"+positionWLZ+" 00000 n "},

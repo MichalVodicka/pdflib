@@ -1,0 +1,24 @@
+{
+  "name": "pdflib",
+  "description": "This package.json is only for mocha+chai purpose.",
+  "version": "0.0.1",
+  "main": "Lib/pdflib.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichalVodicka/pdflib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalVodicka/pdflib/issues"
+  },
+  "homepage": "https://github.com/MichalVodicka/pdflib",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
